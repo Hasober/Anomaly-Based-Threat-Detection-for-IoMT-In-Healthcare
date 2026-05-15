@@ -1,0 +1,87 @@
+{
+  "trained_at": "2026-05-09T23:40:31.244630Z",
+  "n_training_samples": 14579,
+  "features": [
+    "age",
+    "bp_systolic_mmhg",
+    "bp_diastolic_mmhg",
+    "heart_rate_bpm",
+    "spo2_percent",
+    "respiratory_rate_bpm",
+    "temperature_celsius",
+    "blood_glucose_mgdl",
+    "pain_scale",
+    "pulse_pressure",
+    "mean_arterial_pressure",
+    "shock_index",
+    "bmi_proxy",
+    "ward_encoded",
+    "ecg_encoded",
+    "consciousness_encoded",
+    "gender_encoded"
+  ],
+  "numeric_features": [
+    "age",
+    "bp_systolic_mmhg",
+    "bp_diastolic_mmhg",
+    "heart_rate_bpm",
+    "spo2_percent",
+    "respiratory_rate_bpm",
+    "temperature_celsius",
+    "blood_glucose_mgdl",
+    "pain_scale",
+    "pulse_pressure",
+    "mean_arterial_pressure",
+    "shock_index",
+    "bmi_proxy"
+  ],
+  "ordinal_features": [
+    "ward_encoded",
+    "ecg_encoded",
+    "consciousness_encoded",
+    "gender_encoded"
+  ],
+  "ward_order": [
+    "ICU",
+    "Cardiology",
+    "Neurology",
+    "Orthopedics",
+    "General"
+  ],
+  "ecg_order": [
+    "Normal Sinus",
+    "Sinus Bradycardia",
+    "Sinus Tachycardia",
+    "AFib"
+  ],
+  "consciousness_order": [
+    "Alert",
+    "Drowsy",
+    "Confused",
+    "Unconscious"
+  ],
+  "gender_map": {
+    "Male": 0,
+    "Female": 1
+  },
+  "decision_threshold": 0.032311904309656525,
+  "score_stats": {
+    "mean": 0.09953629928879244,
+    "std": 0.036823472091748036,
+    "min": -0.052120010400350636,
+    "p5": 0.032311904309656525,
+    "p25": 0.0757324066116268,
+    "p50": 0.10399859291092334,
+    "p75": 0.12735823979096486,
+    "max": 0.18027694125615812
+  },
+  "hyperparameters": {
+    "n_estimators": 150,
+    "contamination": "0.01",
+    "max_samples": "auto",
+    "max_features": 1.0,
+    "random_state": 42
+  },
+  "model_path": "C:\\Users\\Hospital OS\\Desktop\\IDS FILES\\Models\\patient_ids_model.pkl",
+  "scaler_path": "C:\\Users\\Hospital OS\\Desktop\\IDS FILES\\Models\\patient_ids_scaler.pkl"
+}
